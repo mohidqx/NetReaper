@@ -26,7 +26,7 @@ It features a high-performance cyberpunk TUI, real-time credential harvesting, a
 NetReaper requires **Python 3.8+** and `libpcap` drivers.
 
 # 1. Clone
-    git clone [https://github.com/mohidqx/NetReaper.git](https://github.com/mohidqx/NetReaper.git)
+    git clone https://github.com/mohidqx/NetReaper.git
 
     cd NetReaper
 
