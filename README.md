@@ -26,32 +26,29 @@ It features a high-performance cyberpunk TUI, real-time credential harvesting, a
 NetReaper requires **Python 3.8+** and `libpcap` drivers.
 
 # 1. Clone
-git clone [https://github.com/mohidqx/NetReaper.git](https://github.com/mohidqx/NetReaper.git)
-cd NetReaper
+    git clone [https://github.com/mohidqx/NetReaper.git](https://github.com/mohidqx/NetReaper.git)
+
+    cd NetReaper
 
 # 2. Install Deps
-pip install scapy rich colorama psutil
+    pip install scapy rich colorama psutil
 
-    Note: Run as Root/Administrator to enable Process Mapping and Sniffing.
+Note: Run as Root/Administrator to enable Process Mapping and Sniffing.
 
 🚀 Usage
 Live Dashboard (Default)
-Bash
 
-sudo python3 NetReaper.py -i eth0
+    sudo python3 NetReaper.py -i eth0
 
 Full Surveillance (DB + PCAP)
-Bash
 
-sudo python3 NetReaper.py -i eth0 --db -w evidence.pcap
+    sudo python3 NetReaper.py -i eth0 --db -w evidence.pcap
 
 Stealth/Debug Mode (No UI)
-Bash
 
-sudo python3 NetReaper.py --debug
+    sudo python3 NetReaper.py --debug
 
 ⚠️ Disclaimer
-
 FOR EDUCATIONAL PURPOSES ONLY. Usage of this tool for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state, and federal laws.
 
-Author: Muhammad Mohid & TeamCyberOps
+    Author: Muhammad Mohid & TeamCyberOps
